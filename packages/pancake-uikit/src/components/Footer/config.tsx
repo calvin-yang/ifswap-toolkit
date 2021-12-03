@@ -7,26 +7,26 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://docs.ifswap.finance",
       },
       {
         label: "Blog",
-        href: "https://pancakeswap.medium.com/",
+        href: "https://ifswap.medium.com/",
       },
       {
         label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        href: "https://docs.ifswap.finance/contact-us/telegram",
       },
       {
         label: "CAKE",
-        href: "https://docs.pancakeswap.finance/tokenomics/cake",
+        href: "https://docs.ifswap.finance/tokenomics/cake",
       },
       {
         label: "—",
       },
       {
         label: "Online Store",
-        href: "https://pancakeswap.creator-spring.com/",
+        href: "https://ifswap.creator-spring.com/",
         isHighlighted: true,
       },
     ],
@@ -36,15 +36,15 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        href: "Support https://docs.ifswap.finance/contact-us/customer-support",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        href: "https://docs.ifswap.finance/help/troubleshooting",
       },
       {
         label: "Guides",
-        href: "https://docs.pancakeswap.finance/get-started",
+        href: "https://docs.ifswap.finance/get-started",
       },
     ],
   },
@@ -53,11 +53,11 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/ifswap",
       },
       {
         label: "Documentation",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.ifswap.finance",
       },
       {
         label: "Bug Bounty",
@@ -65,11 +65,11 @@ export const footerLinks: FooterLinkType[] = [
       },
       {
         label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
+        href: "https://docs.ifswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
       },
       {
         label: "Careers",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        href: "https://docs.ifswap.finance/hiring/become-a-chef",
       },
     ],
   },
@@ -84,65 +84,71 @@ export const socials = [
   {
     label: "Telegram",
     icon: "Telegram",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/ifswap",
-      },
-      // {
-      //   label: "Bahasa Indonesia",
-      //   href: "https://t.me/PancakeSwapIndonesia",
-      // },
-      // {
-      //   label: "中文",
-      //   href: "https://t.me/PancakeSwap_CN",
-      // },
-      // {
-      //   label: "Tiếng Việt",
-      //   href: "https://t.me/PancakeSwapVN",
-      // },
-      // {
-      //   label: "Italiano",
-      //   href: "https://t.me/pancakeswap_ita",
-      // },
-      // {
-      //   label: "русский",
-      //   href: "https://t.me/pancakeswap_ru",
-      // },
-      // {
-      //   label: "Türkiye",
-      //   href: "https://t.me/pancakeswapturkiye",
-      // },
-      // {
-      //   label: "Português",
-      //   href: "https://t.me/PancakeSwapPortuguese",
-      // },
-      // {
-      //   label: "Español",
-      //   href: "https://t.me/PancakeswapEs",
-      // },
-      // {
-      //   label: "日本語",
-      //   href: "https://t.me/pancakeswapjp",
-      // },
-      // {
-      //   label: "Français",
-      //   href: "https://t.me/pancakeswapfr",
-      // },
-      // {
-      //   label: "Announcements",
-      //   href: "https://t.me/PancakeSwapAnn",
-      // },
-      // {
-      //   label: "Whale Alert",
-      //   href: "https://t.me/PancakeSwapWhales",
-      // },
-    ],
+    href: "https://t.me/ifswap",
   },
+    // {
+    //   label: "Telegram",
+    //   icon: "Telegram",
+    //   href: "https://t.me/ifswap",
+    //   items: [
+    //       // {
+    //       //   label: "English",
+    //       //   href: "https://t.me/ifswap",
+    //       // },
+    //     // {
+    //     //   label: "Bahasa Indonesia",
+    //     //   href: "https://t.me/PancakeSwapIndonesia",
+    //     // },
+    //     // {
+    //     //   label: "中文",
+    //     //   href: "https://t.me/PancakeSwap_CN",
+    //     // },
+    //     // {
+    //     //   label: "Tiếng Việt",
+    //     //   href: "https://t.me/PancakeSwapVN",
+    //     // },
+    //     // {
+    //     //   label: "Italiano",
+    //     //   href: "https://t.me/pancakeswap_ita",
+    //     // },
+    //     // {
+    //     //   label: "русский",
+    //     //   href: "https://t.me/pancakeswap_ru",
+    //     // },
+    //     // {
+    //     //   label: "Türkiye",
+    //     //   href: "https://t.me/pancakeswapturkiye",
+    //     // },
+    //     // {
+    //     //   label: "Português",
+    //     //   href: "https://t.me/PancakeSwapPortuguese",
+    //     // },
+    //     // {
+    //     //   label: "Español",
+    //     //   href: "https://t.me/PancakeswapEs",
+    //     // },
+    //     // {
+    //     //   label: "日本語",
+    //     //   href: "https://t.me/pancakeswapjp",
+    //     // },
+    //     // {
+    //     //   label: "Français",
+    //     //   href: "https://t.me/pancakeswapfr",
+    //     // },
+    //     // {
+    //     //   label: "Announcements",
+    //     //   href: "https://t.me/PancakeSwapAnn",
+    //     // },
+    //     // {
+    //     //   label: "Whale Alert",
+    //     //   href: "https://t.me/PancakeSwapWhales",
+    //     // },
+    //   ],
+    // },
   // {
   //   label: "Reddit",
   //   icon: "Reddit",
-  //   href: "https://reddit.com/r/pancakeswap",
+  //   href: "https://reddit.com/r/ifswap",
   // },
   // {
   //   label: "Instagram",

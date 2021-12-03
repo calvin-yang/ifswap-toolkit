@@ -26,15 +26,15 @@ export const links: MenuItemsType[] = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://exchange.ifswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://exchange.ifswap.finance/#/pool",
       },
       {
         label: "Charts",
-        href: "https://exchange.pancakeswap.finance/#/charts",
+        href: "https://exchange.ifswap.finance/#/charts",
         iconName: "Chart",
         isMobileOnly: true,
       },
@@ -149,7 +149,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   },
   {
     type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://pancakeswap.finance",
+    href: "https://ifswap.finance",
     label: "Link",
   },
   {
