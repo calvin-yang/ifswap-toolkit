@@ -22,8 +22,8 @@ const getCursorStyle = ({ disabled = false }: DisabledProp) => {
 };
 
 const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
+  // background-image: url(${isMax ? bunnyHeadMax : bunnyHeadMain});
   -webkit-appearance: none;
-  background-image: url(${isMax ? bunnyHeadMax : bunnyHeadMain});
   background-color: transparent;
   border: 0;
   cursor: ${getCursorStyle};
@@ -55,11 +55,13 @@ export const SliderLabel = styled(Text)<SliderLabelProps>`
 `;
 
 export const BunnyButt = styled.div<DisabledProp>`
-  background: url(${bunnyButt}) no-repeat;
+  // background: url(${bunnyButt}) no-repeat;
   height: 32px;
   filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
   position: absolute;
   width: 15px;
+  // top: 7px;
+  // left: 5px;
 `;
 
 export const BunnySlider = styled.div`
@@ -99,5 +101,6 @@ export const BarProgress = styled.div<DisabledProp>`
   filter: ${({ disabled }) => (disabled ? "grayscale(100%)" : "none")};
   height: 10px;
   position: absolute;
-  top: 18px;
+  border-radius: 12px;
+  top: 15px;
 `;
