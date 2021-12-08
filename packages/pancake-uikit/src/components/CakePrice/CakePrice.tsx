@@ -27,7 +27,7 @@ const PriceLink = styled.a`
 const CakePrice: React.FC<Props> = ({ cakePriceUsd, color = "textSubtle" }) => {
   return cakePriceUsd ? (
     <PriceLink
-      href="https://ifswap.finance/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+      href="https://ifswap.finance/swap?outputCurrency=0x6925435f9D1CB710abeb680Ec7EF3f8C5E1B2639"
       target="_blank"
     >
       <IFS width="24px" mr="8px" />

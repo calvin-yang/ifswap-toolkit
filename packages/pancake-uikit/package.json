@@ -1,7 +1,7 @@
 {
   "name": "@ifswap/uikit",
-  "version": "0.59.0",
-  "description": "Set of UI components for pancake projects",
+  "version": "0.61.0",
+  "description": "Set of UI components for ifswap projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
